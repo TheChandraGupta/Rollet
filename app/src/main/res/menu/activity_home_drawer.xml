@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/add_balance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Balanace" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="History" />
+        <item
+            android:id="@+id/expenses"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Expenses" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Different Pocket?" />
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+</menu>
