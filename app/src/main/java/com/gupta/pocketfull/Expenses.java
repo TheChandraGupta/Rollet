@@ -44,10 +44,10 @@ public class Expenses extends AppCompatActivity
         pocket.setName(bundle.getString("NAME"));
         pocket.setDate(bundle.getString("DATE"));
         pocket.setLastResetDate(bundle.getString("RESETDATE"));
-
+/*
         TextView pocket_name_navbar = (TextView)findViewById(R.id.pocket_name_navbar);
         pocket_name_navbar.setText("" + pocket.getName());
-
+*/
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);

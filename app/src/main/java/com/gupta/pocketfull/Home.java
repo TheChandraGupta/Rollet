@@ -46,10 +46,10 @@ public class Home extends AppCompatActivity
         pocket.setName(bundle.getString("NAME"));
         pocket.setDate(bundle.getString("DATE"));
         pocket.setLastResetDate(bundle.getString("RESETDATE"));
-
+/*
         TextView pocket_name_navbar = (TextView)findViewById(R.id.pocket_name_navbar);
         pocket_name_navbar.setText("" + pocket.getName());
-
+*/
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.addnewexpensefab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
