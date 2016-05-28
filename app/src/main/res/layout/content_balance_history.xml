@@ -10,6 +10,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.gupta.pocketfull.BalanceHistory"
-    tools:showIn="@layout/app_bar_balance_history">
+    tools:showIn="@layout/app_bar_balance_history"
+    android:background="#e9fdc0">
 
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/balancehistorylist"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/balancehistorytitle"
+        android:text="@string/title_activity_balance_history"
+        android:textColor="@color/newColorGupta"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textSize="20dp"
+        android:id="@+id/balancehistorymessage"
+        android:layout_alignTop="@+id/balancehistorylist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:textColor="@color/newColorGupta" />
 </RelativeLayout>

@@ -10,6 +10,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.gupta.pocketfull.Expenses"
-    tools:showIn="@layout/app_bar_expenses">
+    tools:showIn="@layout/app_bar_expenses"
+    android:background="#e9fdc0">
 
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/balancehistorylist"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/expensestitle"
+        android:text="@string/title_activity_expenses"
+        android:textColor="@color/newColorGupta"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20dp"
+        android:id="@+id/expensesmessage"
+        android:layout_alignTop="@+id/expenseslist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:textColor="@color/newColorGupta" />
 </RelativeLayout>

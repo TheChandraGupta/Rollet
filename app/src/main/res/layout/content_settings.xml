@@ -10,6 +10,62 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.gupta.pocketfull.Settings"
-    tools:showIn="@layout/app_bar_settings">
+    tools:showIn="@layout/app_bar_settings"
+    android:background="#e9fdc0" >
 
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:id="@+id/changepocketname"
+        android:layout_marginTop="49dp"
+        android:hint="Ex. Change Pocket Name"
+        android:textColor="#16a085"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:id="@+id/changepocket"
+        android:background="#16a085"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/changepocketname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="RESET POCKET"
+        android:id="@+id/resetpocket"
+        android:layout_below="@+id/changepocketname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#16a085"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="DELETE POCKET"
+        android:id="@+id/deletepocket"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#16a085" />
 </RelativeLayout>
