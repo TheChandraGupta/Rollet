@@ -12,4 +12,6 @@
     tools:context="com.gupta.pocketfull.Settings"
     tools:showIn="@layout/app_bar_settings">
 
+    <!-- Testing 1 -->
+
 </RelativeLayout>
