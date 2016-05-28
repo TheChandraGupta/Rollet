@@ -13,7 +13,7 @@
     tools:showIn="@layout/app_bar_settings"
     android:background="#e9fdc0" >
 
-    <!-- Push Test 1-->
+    <!-- Push Test 2-->
     <EditText
         android:layout_width="260dp"
         android:layout_height="50dp"
