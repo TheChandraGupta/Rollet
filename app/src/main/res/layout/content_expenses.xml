@@ -43,8 +43,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="20dp"
         android:id="@+id/expensesmessage"
-        android:layout_alignTop="@+id/expenseslist"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="113dp"
         android:textColor="@color/newColorGupta" />
 </RelativeLayout>
